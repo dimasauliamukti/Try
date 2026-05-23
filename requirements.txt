@@ -1,0 +1,52 @@
+# Web framework
+fastapi==0.111.0
+uvicorn==0.30.6
+python-dotenv==1.2.1
+
+# Networking
+requests>=2.31.0
+
+# Numerical & scientific
+numpy==1.26.4
+scipy==1.13.1
+
+# Computer vision
+pillow==10.4.0
+opencv-contrib-python==4.10.0.84
+matplotlib==3.9.4
+
+# ML / inference
+mediapipe==0.10.18
+onnxruntime-gpu==1.13.1
+huggingface-hub>=0.20.0
+
+# YOLO (training & inference)
+ultralytics>=8.3.0
+
+# COCO & detection utilities
+pycocotools==2.0.8
+terminaltables==3.1.10
+
+# Utilities
+six==1.17.0
+tqdm==4.67.3
+setuptools
+wheel
+
+# PyTorch (CUDA 11.7)
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+
+# mmcv
+--find-links https://download.openmmlab.com/mmcv/dist/cu117/torch1.13.0/index.html
+mmcv-full==1.7.1
+
+# mmdet from SegRefiner (editable install)
+-e ./SegRefiner
+
+#Modal 
+modal
+
+#PyQT
+PyQt5

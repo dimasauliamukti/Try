@@ -1,0 +1,99 @@
+
+# =========================
+# PYTHON CACHE
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# VENV / ENV
+# =========================
+.venv/
+venv/
+env/
+ENV/
+menv/
+renv/
+polv/
+mainv/
+
+# =========================
+# BUILD / PACKAGE
+# =========================
+build/
+dist/
+develop-eggs/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# =========================
+# LOGS / CACHE
+# =========================
+*.log
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# NOTEBOOK
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+datasets/**
+!datasets/.gitkeep
+
+models/**
+!models/.gitkeep
+
+bbox_model/datasets/**
+!bbox_model/datasets/.gitkeep
+
+bbox_model/models/**
+!bbox_model/models/.gitkeep
+
+keypoints_model/datasets/**
+!keypoints_model/datasets/.gitkeep
+
+keypoints_model/models/**
+!keypoints_model/models/.gitkeep
+
+# =========================
+# UNUSED / EXPERIMENTS
+# =========================
+unused/
+v1/
+tryon-qa/
+assets/*
+# =========================
+# TEMP FILES
+# =========================
+tempCodeRunnerFile.py
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.envrc
+
+# =========================
+# NOTE: FILES (IMPORTANT)
+# =========================
+# ⚠️ JANGAN ignore ini kalau masih dipakai project:
+Dockerfile
+package-lock.json
