@@ -59,7 +59,7 @@ image = (
     .pip_install("numpy==1.26.4")    
     .pip_install("onnxruntime-gpu==1.13.1")
     .add_local_dir(".", remote_path="/root/src")
-    .add_local_dir(r"D:\project\be_demos\SegRefiner", remote_path="/root/SegRefiner")
+    .add_local_dir(r"./SegRefiner", remote_path="/root/SegRefiner")
 )
 
 volume = modal.Volume.from_name("model-weights", create_if_missing=True)
